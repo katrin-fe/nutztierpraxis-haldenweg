@@ -1,0 +1,16 @@
+:root {
+  --primary-color: #a8a983;
+}
+
+body {
+  background: var(--primary-color);
+  padding-top: 150px;
+  text-align: center;
+}
+
+h1 {
+}
+
+.nav-color {
+  background: white;
+}
