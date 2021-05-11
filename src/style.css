@@ -34,7 +34,7 @@ h3 {
   margin-top: -13px;
 }
 
-img {
+footer img {
   max-width: 100%;
   height: auto;
   border-radius: 3px;
@@ -56,18 +56,35 @@ a:hover {
 
 .introduction {
   border-bottom: 1px solid var(--secondary-color);
-  margin: 0px 130px 80px 130px;
+  margin: 360px 130px 80px 130px;
   padding-bottom: 60px;
   font-size: 18px;
+  font-weight: 550;
 }
 
 .image-container {
-  padding: 70px 70px 100px 70px;
-  margin-bottom: 30px;
+  padding: 70px;
+  margin-bottom: -10px;
 }
 
 .fa-envelope,
-.fa-phone-alt {
+.fa-phone-alt,
+.fa-paw {
   font-size: 14px;
   padding-right: 3px;
+}
+
+.image-home {
+  max-width: 100%;
+  height: auto;
+  margin-top: -180px;
+}
+
+.h1-home {
+  margin-top: -450px;
+}
+
+.h2-home {
+  font-size: 100px;
+  margin-top: -22px;
 }
