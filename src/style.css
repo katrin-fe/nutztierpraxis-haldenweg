@@ -37,7 +37,7 @@ h3 {
 footer img {
   max-width: 100%;
   height: auto;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 
 footer {
@@ -87,4 +87,10 @@ a:hover {
 .h2-home {
   font-size: 100px;
   margin-top: -22px;
+}
+
+.heading-sub {
+  border-bottom: 1px solid var(--secondary-color);
+  margin: 0px 130px 0px 130px;
+  padding-bottom: 20px;
 }
