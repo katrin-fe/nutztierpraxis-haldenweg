@@ -8,7 +8,7 @@
 body {
   background: var(--primary-color);
   font-family: var(--primary-font);
-  padding-top: 150px;
+  padding-top: 110px;
   text-align: center;
   color: var(--secondary-color);
 }
@@ -17,6 +17,8 @@ nav {
   color: var(--secondary-color);
   background: white;
   font-size: 18px;
+  width: 100;
+  position: fixed;
 }
 
 h1 {
@@ -54,6 +56,22 @@ a:hover {
   opacity: 50%;
 }
 
+.image-home {
+  width: 100%;
+  height: auto;
+  margin-top: -40px;
+  margin-bottom: 20px;
+}
+
+.h1-home {
+  margin-top: -450px;
+}
+
+.h2-home {
+  font-size: 100px;
+  margin-top: -22px;
+}
+
 .introduction {
   border-bottom: 1px solid var(--secondary-color);
   margin: 360px 130px 80px 130px;
@@ -74,23 +92,61 @@ a:hover {
   padding-right: 3px;
 }
 
-.image-home {
-  max-width: 100%;
-  height: auto;
-  margin-top: -180px;
-}
-
-.h1-home {
-  margin-top: -450px;
-}
-
-.h2-home {
-  font-size: 100px;
-  margin-top: -22px;
-}
-
 .heading-sub {
   border-bottom: 1px solid var(--secondary-color);
   margin: 0px 130px 0px 130px;
   padding-bottom: 20px;
+}
+
+@media (max-width: 375px) {
+  .h2-home {
+    font-size: 100px;
+    margin-top: -22px;
+  }
+}
+@media (max-width: 576px) {
+  .image-home {
+    display: none;
+  }
+
+  .h1-home {
+    margin-top: 40px;
+    font-size: 28px;
+  }
+
+  .h2-home {
+    font-size: 60px;
+    padding-top: 8px;
+  }
+
+  .introduction {
+    margin: 0px 30px 0px 30px;
+    margin-bottom: 60px;
+    font-size: 16px;
+  }
+
+  .contact {
+    font-size: 16px;
+  }
+
+  .image-container img {
+    padding-bottom: 12px;
+    max-width: 70%;
+  }
+
+  .thanks {
+    max-width: 70%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: -30px;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
 }
