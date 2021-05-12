@@ -105,41 +105,56 @@ a:hover {
   }
 }
 @media (max-width: 576px) {
+  body {
+    margin-left: -50px;
+    margin-right: -50px;
+  }
+
+
   .image-home {
     display: none;
   }
 
-  .h1-home {
-    margin-top: 40px;
+  h1 {
     font-size: 28px;
   }
 
-  .h2-home {
-    font-size: 60px;
-    padding-top: 8px;
+  h2 {
+    font-size: 27px;
   }
 
-  .introduction {
-    margin: 0px 30px 0px 30px;
-    margin-bottom: 60px;
-    font-size: 16px;
-  }
+.h1-home {
+  margin-top: 40px;
+  font-size: 28px;
+}
 
-  .contact {
-    font-size: 16px;
-  }
+.h2-home {
+  font-size: 60px;
+  padding-top: 8px;
+}
 
-  .image-container img {
-    padding-bottom: 12px;
-    max-width: 70%;
-  }
+.introduction {
+  margin: 0px 50px 0px 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 60px;
+  font-size: 16px;
+}
 
-  .thanks {
-    max-width: 70%;
-    margin: 0 auto;
-    padding-bottom: 50px;
-    padding-top: -30px;
-  }
+.contact {
+  font-size: 16px;
+}
+
+.image-container img {
+  padding-bottom: 12px;
+  max-width: 70%;
+}
+
+.thanks {
+  max-width: 70%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: -30px;
 }
 
 @media (min-width: 768px) {
