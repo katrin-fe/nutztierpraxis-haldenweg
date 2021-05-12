@@ -56,25 +56,27 @@ a:hover {
   opacity: 50%;
 }
 
-.image-home {
-  width: 100%;
-  height: auto;
-  margin-top: -40px;
-  margin-bottom: 20px;
+.background-welcome {
+  background-color: transparent;
+  background-image: url("/img/kühe-weide-priscilla-du-preez.jpg");
+  background-size: cover;
+  
 }
 
 .h1-home {
-  margin-top: -450px;
+  padding-top: 150px;
+  margin-top: -100px;
+  padding-bottom: 400px;
 }
 
 .h2-home {
   font-size: 100px;
-  margin-top: -22px;
+  margin-top: -420px;
 }
 
 .introduction {
   border-bottom: 1px solid var(--secondary-color);
-  margin: 360px 130px 80px 130px;
+  margin: 380px 130px 80px 130px;
   padding-bottom: 60px;
   font-size: 18px;
   font-weight: 550;
@@ -98,21 +100,10 @@ a:hover {
   padding-bottom: 20px;
 }
 
-@media (max-width: 375px) {
-  .h2-home {
-    font-size: 100px;
-    margin-top: -22px;
-  }
-}
 @media (max-width: 576px) {
   body {
     margin-left: -50px;
     margin-right: -50px;
-  }
-
-
-  .image-home {
-    display: none;
   }
 
   h1 {
@@ -124,7 +115,7 @@ a:hover {
   }
 
 .h1-home {
-  margin-top: 40px;
+  margin-top: -120px;
   font-size: 28px;
 }
 
@@ -134,15 +125,16 @@ a:hover {
 }
 
 .introduction {
-  margin: 0px 50px 0px 50px;
+  margin: 400px 90px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-bottom: 60px;
   font-size: 16px;
 }
 
 .contact {
   font-size: 16px;
+  margin: -330px 30px 0px 30px;
+
 }
 
 .image-container img {
@@ -158,6 +150,22 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+  body {
+    margin-left: -50px;
+    margin-right: -50px;
+  }
+
+  .image-home {
+    display: none;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 27px;
+  }
 }
 
 @media (min-width: 992px) {
