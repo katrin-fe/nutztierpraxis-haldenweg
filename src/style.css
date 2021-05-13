@@ -26,24 +26,10 @@ h1 {
 }
 
 h2 {
-  font-family: var(--secondary-font);
   font-size: 45px;
   font-weight: 700;
+  font-family: var(--secondary-font);
   opacity: 20%;
-}
-
-h3 {
-  margin-top: -13px;
-}
-
-footer img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 2px;
-}
-
-footer {
-  font-size: 18px;
 }
 
 a {
@@ -60,13 +46,11 @@ a:hover {
   background-color: transparent;
   background-image: url("/img/kühe-weide-priscilla-du-preez.jpg");
   background-size: cover;
-  
 }
 
 .h1-home {
-  padding-top: 150px;
   margin-top: -100px;
-  padding-bottom: 400px;
+  padding: 150px 0px 400px 0px;
 }
 
 .h2-home {
@@ -75,11 +59,21 @@ a:hover {
 }
 
 .introduction {
-  border-bottom: 1px solid var(--secondary-color);
-  margin: 380px 130px 80px 130px;
-  padding-bottom: 60px;
   font-size: 18px;
   font-weight: 550;
+  margin: 380px 130px 80px 130px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.contact {
+  font-size: 18px;
+}
+
+.contact img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2px;
 }
 
 .image-container {
@@ -101,58 +95,84 @@ a:hover {
 }
 
 @media (max-width: 576px) {
-  body {
-    margin-left: -50px;
-    margin-right: -50px;
+  nav img {
+    display: none;
   }
 
   h1 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   h2 {
     font-size: 27px;
   }
 
-.h1-home {
-  margin-top: -120px;
-  font-size: 28px;
-}
+  .h1-home {
+    font-size: 23px;
+    margin-top: -120px;
+  }
 
-.h2-home {
-  font-size: 60px;
-  padding-top: 8px;
-}
+  .h2-home {
+    font-size: 60px;
+    padding-top: 8px;
+  }
 
-.introduction {
-  margin: 400px 90px;
-  padding-left: 40px;
-  padding-right: 40px;
-  font-size: 16px;
-}
+  .introduction {
+    margin: 400px 90px 400px 90px;
+    padding: 15px 0px 40px 0px;
+    font-size: 17px;
+  }
 
-.contact {
-  font-size: 16px;
-  margin: -330px 30px 0px 30px;
+  .contact {
+    font-size: 16px;
+    margin: -330px 70px 0px 70px;
+  }
 
-}
+  .image-container img {
+    padding-bottom: 12px;
+    max-width: 70%;
+  }
 
-.image-container img {
-  padding-bottom: 12px;
-  max-width: 70%;
-}
+  .thanks {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: -30px 0px 50px 0px;
+    margin-bottom: 20px;
+  }
 
-.thanks {
-  max-width: 70%;
-  margin: 0 auto;
-  padding-bottom: 50px;
-  padding-top: -30px;
+  @media (max-width: 375px) {
+    nav img {
+      display: none;
+    }
+
+    body {
+      width: 100;
+      margin-top: -30px;
+    }
+
+    .h1-home {
+      font-size: 18px;
+    }
+
+    .h2-home {
+      font-size: 30px;
+    }
+
+    .thanks {
+      padding-bottom: 40px;
+    }
+
+    .introduction {
+      margin-left: 80px;
+    }
+  }
 }
 
 @media (min-width: 768px) {
   body {
     margin-left: -50px;
     margin-right: -50px;
+    width: 100;
   }
 
   .image-home {
@@ -166,10 +186,29 @@ a:hover {
   h2 {
     font-size: 27px;
   }
+
+  .thanks {
+    padding: 0px 80px 40px 80px;
+  }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
+  .thanks {
+    padding: 0px 150px 40px 150px;
+  }
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 280px) {
+  body {
+    width: 100;
+  }
+
+  .introduction {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .image-container {
+    padding: 30px 0px 30px 0px;
+  }
 }
