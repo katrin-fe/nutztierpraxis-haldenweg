@@ -32,6 +32,10 @@ h2 {
   opacity: 20%;
 }
 
+p {
+  font-size: 18px;
+}
+
 a {
   text-decoration: none;
   color: var(--secondary-color);
@@ -58,22 +62,15 @@ a:hover {
   margin-top: -420px;
 }
 
+.contact h2 {
+  font-size: 45px;
+}
+
 .introduction {
-  font-size: 18px;
   font-weight: 550;
   margin: 380px 130px 80px 130px;
   padding-bottom: 60px;
   border-bottom: 1px solid var(--secondary-color);
-}
-
-.contact {
-  font-size: 18px;
-}
-
-.contact img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 2px;
 }
 
 .image-container {
