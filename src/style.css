@@ -23,8 +23,9 @@ nav {
 }
 
 h1 {
-  font-size: 45px;
-  display: center;
+  font-size: 60px;
+  padding-bottom: 20px;
+  padding-top: 50px;
 }
 
 h2 {
@@ -48,6 +49,11 @@ a:hover {
   color: var(--secondary-color);
   opacity: 50%;
   font-size: 17px;
+}
+
+footer {
+  margin-left: 130px;
+  margin-right: 130px;
 }
 
 .background-welcome {
@@ -87,10 +93,6 @@ a:hover {
 .fa-paw {
   font-size: 14px;
   padding-right: 3px;
-}
-
-.heading-sub {
-  padding-bottom: 20px;
 }
 
 .name {
