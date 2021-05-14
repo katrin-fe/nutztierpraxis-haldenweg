@@ -171,6 +171,11 @@ a:hover {
     margin: 10px;
   }
 
+  a {
+    color: var(--secondary-color);
+    opacity: 50%;
+  }
+
   @media (max-width: 375px) {
     nav img {
       display: none;
