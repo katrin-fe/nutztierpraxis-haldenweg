@@ -70,7 +70,7 @@ ul {
 
 ul.download-list {
   border: 1px solid var(--secondary-color);
-  margin: 50px 100px 50px 100px;
+  margin: 50px 100px 0px 100px;
   padding-bottom: 30px;
   border-radius: 4px;
 }
@@ -87,7 +87,7 @@ ul.download-list {
 }
 
 ul.offer {
-  margin: 50px 100px 50px 100px;
+  margin: 50px 100px 0px 100px;
   border-radius: 4px;
   margin-bottom: 500px;
 }
@@ -195,7 +195,7 @@ a:hover {
 
   .introduction {
     margin: 400px 90px 400px 90px;
-    padding: 15px 0px 40px 0px;
+    padding: 15px 10px 40px 10px;
     font-size: 17px;
   }
 
@@ -222,6 +222,12 @@ a:hover {
   a {
     color: var(--secondary-color);
     opacity: 50%;
+  }
+}
+
+@media (max-width: 300px) {
+  .image-container {
+    display: none;
   }
 }
 
@@ -275,6 +281,12 @@ a:hover {
   .padding-bottom {
     padding: 240px;
   }
+
+  .card {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
 }
 
 @media (min-width: 576px) {
@@ -289,16 +301,43 @@ a:hover {
 
   .h1-home,
   .h1-subsites {
-    font-size: 10px;
+    font-size: 40px;
   }
 
   .h2-home,
   .h2-subsites {
-    font-size: 30px;
+    font-size: 45px;
   }
 
   .introduction {
     margin-left: 80px;
+  }
+
+  .logo-bottom {
+    display: none;
+  }
+
+  .card-title-animals {
+    font-size: 20px;
+  }
+
+  .card-text {
+    font-size: 15px;
+  }
+
+  .p-under-heading {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .introduction {
+    padding-top: 40px;
+  }
+
+  .card {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
   }
 }
 
@@ -309,6 +348,14 @@ a:hover {
 
   .image-home {
     display: none;
+  }
+
+  .h1-home {
+    font-size: 45px;
+  }
+
+  .h2-home {
+    font-size: 50px;
   }
 
   .h1-subsites {
@@ -322,6 +369,12 @@ a:hover {
   .thanks {
     padding: 0px 80px 40px 80px;
   }
+
+  .card {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -331,5 +384,11 @@ a:hover {
 
   .logo-bottom {
     display: none;
+  }
+
+  .card {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
   }
 }
