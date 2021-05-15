@@ -42,7 +42,6 @@ h2 {
 }
 
 .h2-home {
-  font-size: 100px;
   margin-top: -420px;
   font-family: var(--secondary-font);
   opacity: 20%;
@@ -55,12 +54,12 @@ p {
 a {
   text-decoration: none;
   color: var(--secondary-color);
+  opacity: 50%;
   font-size: 17px;
 }
 
 a:hover {
   color: var(--secondary-color);
-  opacity: 50%;
   font-size: 17px;
 }
 
@@ -86,14 +85,19 @@ ul.download-list {
   padding-left: 15px;
 }
 
+.name {
+  font-size: 25px;
+  padding-top: 100px;
+}
+
 ul.offer {
   margin: 50px 100px 0px 100px;
   border-radius: 4px;
   margin-bottom: 500px;
 }
 .offer li {
-  text-align: left;
-  list-style-type: circle;
+  text-align: center;
+  list-style: none;
   line-height: 1.8;
 }
 
@@ -308,7 +312,7 @@ a:hover {
   }
 
   .card-title-animals {
-    font-size: 20px;
+    font-size: 35px;
   }
 
   .card-text {
