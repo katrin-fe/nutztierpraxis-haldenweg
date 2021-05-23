@@ -85,25 +85,6 @@ ul {
   padding-top: 100px;
 }
 
-ul.offer {
-  margin: 50px 100px 0px 100px;
-  border-radius: 4px;
-  margin-bottom: 500px;
-}
-.offer li {
-  text-align: center;
-  list-style: none;
-  line-height: 1.8;
-}
-
-.offer a {
-  font-size: 17px;
-}
-
-.offer a:hover {
-  font-size: 17px;
-}
-
 ul.download {
   border-radius: 4px;
   background-color: transparent;
@@ -159,6 +140,10 @@ ul.download {
 
 .card-title-animals {
   margin-top: 10px;
+  text-align: left;
+  color: var(--secondary-color);
+  opacity: 100%;
+  font-size: 30px;
 }
 
 .card-animals {
@@ -243,8 +228,7 @@ a:hover {
   }
 
   p,
-  a,
-  .offer {
+  a {
     font-size: 15px;
   }
 }
@@ -268,18 +252,6 @@ a:hover {
   .p-under-heading {
     border-bottom: 1px solid var(--secondary-color);
     padding-bottom: 30px;
-  }
-
-  ul.offer {
-    margin-left: 30px;
-    margin-right: 30px;
-    padding-left: 0px;
-    margin-bottom: 10px;
-  }
-
-  ul.offer li {
-    list-style: none;
-    text-align: center;
   }
 
   .contact {
