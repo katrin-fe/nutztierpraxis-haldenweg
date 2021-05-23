@@ -255,11 +255,6 @@ a:hover {
     margin-right: 30px;
   }
 
-  .p-under-heading {
-    border-bottom: 1px solid var(--secondary-color);
-    padding-bottom: 30px;
-  }
-
   .contact {
     margin-left: 10px;
     margin-right: 10px;
