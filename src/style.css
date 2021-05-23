@@ -212,6 +212,12 @@ a:hover {
     margin: 10px;
   }
 
+  .card-title-animals {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+  }
+
   a {
     color: var(--secondary-color);
     opacity: 50%;
