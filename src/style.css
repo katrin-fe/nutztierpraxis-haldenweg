@@ -158,6 +158,24 @@ a:hover {
   font-size: 18px;
 }
 
+.background {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: -50px;
+  margin-bottom: -40px;
+}
+
+.background a {
+  color: var(--primary-color);
+}
+
+.news {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
 @media (max-width: 576px) {
   nav img {
     display: none;
@@ -265,7 +283,7 @@ a:hover {
     width: 80%;
   }
 
-  .impressum a {
+  .background a {
     font-size: 15px;
   }
 
