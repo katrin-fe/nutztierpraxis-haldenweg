@@ -210,9 +210,14 @@ a:hover {
     font-size: 35px;
   }
 
+  .h1-home {
+    font-size: 45px;
+  }
+
   .introduction {
     margin-left: 12px;
     margin-right: 12px;
+    margin-top: 440px;
   }
 
   .contact-home,
