@@ -172,74 +172,18 @@ a:hover {
 }
 
 .news {
-  max-width: 70%;
+  max-width: 60%;
   margin: 0 auto;
+  text-align: left;
 }
 
-@media (max-width: 576px) {
-  nav img {
-    display: none;
-  }
+.back-news {
+  max-width: 90%;
+}
 
-  h1 {
-    font-size: 30px;
-    padding-top: 100px;
-  }
-
-  h2 {
-    font-size: 30px;
-  }
-
-  h1.h1-home {
-    font-size: 30px;
-    margin-top: -120px;
-  }
-
-  h2.h2-home {
-    font-size: 50px;
-    padding-top: 20px;
-  }
-
-  .contact h2 {
-    font-size: 30px;
-  }
-
-  .introduction {
-    margin: 400px 90px 400px 90px;
-    padding: 15px 10px 40px 10px;
-    font-size: 17px;
-  }
-
-  .contact {
-    font-size: 16px;
-    margin: 0px 70px 0px 70px;
-  }
-
-  .image-container img {
-    padding-bottom: 12px;
-  }
-
-  .thanks {
-    max-width: 70%;
-    margin: 0 auto;
-    padding: -30px 0px 50px 0px;
-    margin-bottom: 20px;
-  }
-
-  .card {
-    margin: 10px;
-  }
-
-  .card-title-animals {
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 5px;
-  }
-
-  a {
-    color: var(--secondary-color);
-    opacity: 50%;
-  }
+.logo-original {
+  background: transparent;
+  padding-top: -40px;
 }
 
 @media (max-width: 300px) {
@@ -296,6 +240,16 @@ a:hover {
     margin: 0 auto;
     margin-bottom: 20px;
   }
+
+  .card-title-animals {
+    padding-top: 25px;
+    font-size: 40px;
+    margin-left: 5px;
+  }
+
+  .back-news {
+    max-width: 85%;
+  }
 }
 
 @media (min-width: 576px) {
@@ -344,6 +298,10 @@ a:hover {
     margin: 0 auto;
     margin-bottom: 20px;
   }
+
+  .back-news {
+    max-width: 60%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -379,6 +337,10 @@ a:hover {
     display: block;
     margin: 0 auto;
     margin-bottom: 20px;
+  }
+
+  .back-news {
+    max-width: 60%;
   }
 }
 
