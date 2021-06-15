@@ -139,9 +139,11 @@ ul.download {
 }
 
 .card-title-animals {
-  margin-top: 10px;
+  margin: 0px;
+  padding-bottom: 15px;
   text-align: left;
   color: var(--secondary-color);
+  font-family: var(--primary-color);
   opacity: 100%;
   font-size: 30px;
 }
