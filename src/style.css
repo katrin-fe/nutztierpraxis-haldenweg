@@ -59,6 +59,17 @@ a:hover {
   font-size: 70px;
 }
 
+a.contact-button {
+  border: 1px solid var(--secondary-color);
+  padding: 10px 15px;
+  border-radius: 3px;
+}
+
+a.contact-button:hover {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+}
+
 .text {
   font-weight: 550;
   margin: 30px 130px 40px 130px;
@@ -192,7 +203,7 @@ a:hover {
     width: 100;
   }
 
-  h1 {
+  .h1-subsite {
     font-size: 20px;
     padding-top: 140px;
   }
