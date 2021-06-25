@@ -37,6 +37,7 @@ h2 {
 
 img.welcome-image {
   width: 100%;
+  margin-top: 25px;
 }
 
 p {
@@ -205,7 +206,7 @@ a:hover {
 
   h1 {
     font-size: 35px;
-    padding-top: 140px;
+    padding-top: 160px;
   }
 
   h2 {
