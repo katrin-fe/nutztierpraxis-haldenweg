@@ -203,8 +203,8 @@ a:hover {
     width: 100;
   }
 
-  .h1-subsite {
-    font-size: 20px;
+  h1 {
+    font-size: 35px;
     padding-top: 140px;
   }
 
@@ -275,12 +275,12 @@ a:hover {
     margin-top: -30px;
   }
 
-  h2.contactus-heading {
+  h1 {
     font-size: 50px;
   }
 
-  .h1-subsites {
-    font-size: 40px;
+  h2.contactus-heading {
+    font-size: 50px;
   }
 
   .h2-subsites {
