@@ -184,6 +184,12 @@ a:hover {
   padding-top: -40px;
 }
 
+.carousel {
+  display: center;
+  margin: 0 auto;
+  width: 60%;
+}
+
 @media (max-width: 300px) {
   .image-container {
     display: none;
@@ -267,6 +273,10 @@ a:hover {
 
   .back-news {
     max-width: 85%;
+  }
+
+  .carousel {
+    width: 90%;
   }
 }
 
