@@ -190,6 +190,10 @@ a:hover {
   width: 60%;
 }
 
+a.link-homoeo-team {
+  font-size: 15px;
+}
+
 @media (max-width: 300px) {
   .image-container {
     display: none;
